@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokAI - Agentic AI on Pokemon Red</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Dongle', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-size: 1.5rem; /* 24px */
+            line-height: 1;
+        }
+    </style>
+</head>
+<body class="font-sans">
+
+    <div class="relative min-h-screen bg-cover bg-center" style="background-image: url('background.png');">
+        
+        <div class="absolute inset-0 bg-black/20 backdrop-blur-sm"></div>
+
+        <div class="relative z-10 flex h-screen flex-col">
+            <header class="p-6 sm:p-8">
+                <img src="logo.png" alt="PokAI" class="w-24 h-auto">
+            </header>
+
+            <main class="flex flex-1 flex-col items-center justify-center">
+                <nav class="flex flex-col items-center justify-center gap-6 text-white">
+                    <a href="https://x.com/PokAIAgent" class="text-6xl font-bold drop-shadow-lg transition-transform hover:scale-110">
+                        X
+                    </a>
+                    <a href="https://www.pump.fun" class="text-6xl font-bold drop-shadow-lg transition-transform hover:scale-110">
+                        pumpfun
+                    </a>
+                </nav>
+            </main>
+        </div>
+    </div>
+    
+    </body>
+</html>
